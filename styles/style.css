@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url('../images/bg1.jpg');
+    background-size:cover;
+    position:relative;
+}
+#logo {
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width:50px;
+    height:25px;
+}
+.image-height {
+    height: 10px;
+}
+
+.hero_title {
+    font-size: 2rem;
+    color:white;
+    
+   
+}
+.hero_desc {
+    font-size: 1rem;
+    color:white;
+    float: right;
+    margin: 0 auto;
+    
+   
+}
+.hero-text {
+    float: right;
+    color: white;
+}
+.carousel-height {
+    height: 400px; /* Change this to your desired height */
+  }
+  .carousel-height .carousel-item img {
+    height: 50%; /* This sets the image height to 100% of the container height */
+    object-fit: cover; /* This ensures that the entire image is visible within the container */
+  }
+.nav-item {
+    border:1px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right:7px;
+}
+.nav-item>a:hover{
+    background-color: white;
+    color:black !important
+}
+#img{
+    height: 30px;
+    margin-left: 30px;
+}
+
+#img-district{
+    height: 200px; 
+}
+.formlog{
+    background-color: lightcoral;
+    border:2px solid black;
+    width:100%;
+   
+}
+
+.con-style{
+    margin-top: 150px;
+}
+
+#log_b{
+    width:100%;
+    background-color: brown;
+}
+
+
+#refdistrict{
+    width:100%;
+    background-color: brown;
+}
+
+.card-body{
+    background-color: gainsboro;
+    border:2px solid brown;
+}
