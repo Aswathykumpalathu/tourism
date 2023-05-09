@@ -14,13 +14,10 @@ let password = document.getElementById("exampleInputPassword1");
  
 
   password.addEventListener('input', function() {
-    // let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
-    console.log('password validation')
-    // console.log(password.value)
-    // console.log(passwordRegex.test(password.value))
-    //
-    const passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
-    console.log(passwordRegex.test(password))
+    
+
+    var passwordRegex = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+  
     if (!passwordRegex.test(password.value)) {
         password.setCustomValidity('Please enter a valid password with minimum 8 characters, at least one uppercase, and one lowercase, must contain at least one number.');
       } else {

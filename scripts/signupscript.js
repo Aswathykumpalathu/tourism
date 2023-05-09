@@ -22,7 +22,7 @@ const passwordField = document.getElementById('password');
   });
 
   passwordField.addEventListener('input', function() {
-    let passwordRegex = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
+    let passwordRegex = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
     
     if (!passwordRegex.test(passwordField.value)) {
       passwordField.setCustomValidity('Please enter a valid password with minimum 8 characters, at least one uppercase, and one lowercase, must contain at least one number.');
